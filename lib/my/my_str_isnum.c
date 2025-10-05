@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2025
 ** my_str_isnum.c
 ** File description:
-**prototype 
+** prototype
 */
 int my_str_isnum(char const *str)
 {

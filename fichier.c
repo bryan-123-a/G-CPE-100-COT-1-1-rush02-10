@@ -11,28 +11,32 @@ int my_putchar
         return 0;
 }
 
-int my_put_nbr (int nb)
+int my_put_nbr(int nb)
 {
     if (nb >= 10) {
         my_put_nbr(nb / 10);
     }
-    my_putchar(nb % 10 + '0');
-}
-                            
-                            
-int count_char (char c)
+    my_put_nbr(nb % 10 + '0');
+}                           
+int count_char(char c)
 {
     int count;
     int i = 0;
     for (i=0;str[i] != '0\'; i++)
         {
-            if (str[i] = c)
-            count i++
+            if (str[i] == c) {
+                count ++;
                 }
-    int main(argument[1]; char *try[])
+         return count;
+        }
+    my_putchar(argument[2]);
+    my_putchar(":");
+    my_putchar(count);
+    my_put_nbr(count);
+}
+int main(argument[1]; char *try[])
 {
-   int  count = count_char(try[1]; char try[2][0])
-        my_putchar(count)
-        
+    int  count = count_char(try[1], char try[2][0]);
+    my_putchar(count);
     return 0;
 }
